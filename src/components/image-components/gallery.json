@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_image_components_galleries",
+  "info": {
+    "displayName": "gallery",
+    "icon": "picture"
+  },
+  "options": {},
+  "attributes": {
+    "images": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "caption": {
+      "type": "string"
+    },
+    "displayMode": {
+      "type": "enumeration",
+      "enum": [
+        "swiper",
+        "bento",
+        "scrollable",
+        "vertical"
+      ]
+    }
+  }
+}

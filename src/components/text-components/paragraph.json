@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_text_components_paragraphs",
+  "info": {
+    "displayName": "paragraph",
+    "icon": "bold",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "text"
+    },
+    "cssClasses": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "imagePosition": {
+      "type": "enumeration",
+      "enum": [
+        "dx",
+        "sx",
+        "center-top",
+        "center-bottom",
+        "background"
+      ],
+      "default": "center-top"
+    }
+  }
+}

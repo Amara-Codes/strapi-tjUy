@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_text_components_quotes",
+  "info": {
+    "displayName": "quote",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "text"
+    },
+    "author": {
+      "type": "string"
+    },
+    "authorInfo": {
+      "type": "string"
+    },
+    "authorLifespan": {
+      "type": "string"
+    },
+    "cssClasses": {
+      "type": "string"
+    }
+  }
+}

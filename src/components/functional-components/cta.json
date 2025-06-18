@@ -1,0 +1,47 @@
+{
+  "collectionName": "components_functional_components_ctas",
+  "info": {
+    "displayName": "cta",
+    "icon": "arrowRight"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "paragraph": {
+      "type": "text"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "buttonLabel": {
+      "type": "string"
+    },
+    "buttonHref": {
+      "type": "string"
+    },
+    "cssClasses": {
+      "type": "string"
+    },
+    "displayMode": {
+      "type": "enumeration",
+      "enum": [
+        "centered",
+        "dx",
+        "sx"
+      ],
+      "default": "centered"
+    }
+  }
+}
